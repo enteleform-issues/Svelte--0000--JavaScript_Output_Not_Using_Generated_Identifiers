@@ -43,7 +43,7 @@ export default {
 	plugins:[
 		new WebpackPluginServe({
 			port:   8080,
-			host:   "0.0.0.0",
+			host:   "localhost",
 			hmr:    true,
 			static: Directory.build,
 			client: {address:"localhost:8080"},
