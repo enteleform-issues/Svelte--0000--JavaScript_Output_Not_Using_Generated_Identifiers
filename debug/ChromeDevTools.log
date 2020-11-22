@@ -1,0 +1,16 @@
+proxy.js:135
+ReferenceError: core_2 is not defined
+  at instance (App.svelte:12)
+  at init (index.mjs:1461)
+  at new App (App.svelte:19)
+  at proxyComponent._register (proxy.js:128)
+  at new proxyComponent (proxy.js:54)
+  at __Main__ (VM17907 index.js:1205)
+
+proxy.js:136
+Full reload required. Please fix component errors and reload the whole page
+
+proxy.js:56
+Uncaught (in promise) TypeError: Cannot read property '_debugName' of undefined
+  at new proxyComponent (proxy.js:56)
+  at __Main__ (VM17907 index.js:1205)

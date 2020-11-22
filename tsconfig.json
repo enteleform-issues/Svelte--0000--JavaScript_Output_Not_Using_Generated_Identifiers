@@ -1,0 +1,36 @@
+{
+	"compilerOptions": {
+		"baseUrl": ".",
+
+		"target":           "ESNext",
+		"module":           "CommonJS",
+		"moduleResolution": "Node",
+
+		"skipLibCheck":                     true,
+		"skipDefaultLibCheck":              true,
+
+		"allowSyntheticDefaultImports":     true,
+		"emitDecoratorMetadata":            true,
+		"esModuleInterop":                  true,
+		"experimentalDecorators":           true,
+		"forceConsistentCasingInFileNames": true,
+		"importHelpers":                    true,
+		"resolveJsonModule":                true,
+		"sourceMap":                        true,
+
+		"downlevelIteration":               true,
+		"noFallthroughCasesInSwitch":       true,
+		"noImplicitReturns":                true,
+		"strict":                           false,
+		"strictBindCallApply":              true,
+	},
+
+	"include": [
+		"./src/**/*.ts",
+		"./src/**/*.svelte",
+	],
+
+	"exclude": [
+		"node_modules",
+	],
+}
